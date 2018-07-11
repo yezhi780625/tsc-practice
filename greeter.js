@@ -11,5 +11,5 @@ function greeter(person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 var user = new Student("Jane", "M.", "James");
-console.log(user);
+
 document.body.innerHTML = greeter(user);
